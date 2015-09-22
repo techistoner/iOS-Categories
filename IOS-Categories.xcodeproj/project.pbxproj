@@ -10,6 +10,8 @@
 		7926E6931B736E8200888EB9 /* UIViewController+BackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926E6921B736E8200888EB9 /* UIViewController+BackButtonItemTitle.m */; };
 		798256171B3A57340033A0C1 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256161B3A57340033A0C1 /* UIViewController+BackButtonHandler.m */; };
 		7982561A1B3A59060033A0C1 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256191B3A59060033A0C1 /* NSString+RegexCategory.m */; };
+		9A5B883F1BB0FE54009B09B7 /* SMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B883D1BB0FE54009B09B7 /* SMNavigationController.m */; };
+		9AB950F81BA2E22A00A6EB0C /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB950F71BA2E22A00A6EB0C /* NSString+JSON.m */; };
 		A202D9621B0F6C4400EAB199 /* NSDate+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D9611B0F6C4400EAB199 /* NSDate+Reporting.m */; };
 		A202D9651B0F6DF900EAB199 /* NSString+MIME.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D9641B0F6DF900EAB199 /* NSString+MIME.m */; };
 		A202D96B1B0F6FA400EAB199 /* UIBarButtonItem+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D96A1B0F6FA400EAB199 /* UIBarButtonItem+Action.m */; };
@@ -358,6 +360,11 @@
 		798256161B3A57340033A0C1 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
 		798256181B3A59060033A0C1 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
 		798256191B3A59060033A0C1 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
+		9A5B883D1BB0FE54009B09B7 /* SMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNavigationController.m; sourceTree = "<group>"; };
+		9A5B883E1BB0FE54009B09B7 /* SMNavigationControllerShouldPopProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNavigationControllerShouldPopProtocol.h; sourceTree = "<group>"; };
+		9A5B88401BB0FF22009B09B7 /* SMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNavigationController.h; sourceTree = "<group>"; };
+		9AB950F61BA2CE7200A6EB0C /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		9AB950F71BA2E22A00A6EB0C /* NSString+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
 		A202D9601B0F6C4400EAB199 /* NSDate+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Reporting.h"; sourceTree = "<group>"; };
 		A202D9611B0F6C4400EAB199 /* NSDate+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Reporting.m"; sourceTree = "<group>"; };
 		A202D9631B0F6DF900EAB199 /* NSString+MIME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MIME.h"; sourceTree = "<group>"; };
@@ -2115,6 +2122,8 @@
 				A24EC2F71B74DF3000CE538B /* NSString+Ruby.m */,
 				A24EC2FA1B74E05300CE538B /* NSString+Matcher.h */,
 				A24EC2FB1B74E05300CE538B /* NSString+Matcher.m */,
+				9AB950F61BA2CE7200A6EB0C /* NSString+JSON.h */,
+				9AB950F71BA2E22A00A6EB0C /* NSString+JSON.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -2225,6 +2234,9 @@
 				A28BE3101A3E9FDC005C4AC6 /* UINavigationController+KeyboardFix.m */,
 				A284C14E1AEBD5BB00D90ED5 /* UINavigationController+StackManager.h */,
 				A284C14F1AEBD5BB00D90ED5 /* UINavigationController+StackManager.m */,
+				9A5B88401BB0FF22009B09B7 /* SMNavigationController.h */,
+				9A5B883D1BB0FE54009B09B7 /* SMNavigationController.m */,
+				9A5B883E1BB0FE54009B09B7 /* SMNavigationControllerShouldPopProtocol.h */,
 			);
 			path = UINavigationController;
 			sourceTree = "<group>";
@@ -3001,6 +3013,7 @@
 				A2958CD91B35825F00D7AA0F /* CAMediaTimingFunctionDemoViewController.m in Sources */,
 				A28BE33D1A3E9FDC005C4AC6 /* UIWebView+Alert.m in Sources */,
 				A2958D061B35906E00D7AA0F /* UIApplication+ApplicationSize.m in Sources */,
+				9A5B883F1BB0FE54009B09B7 /* SMNavigationController.m in Sources */,
 				A28BE3451A3EA292005C4AC6 /* NSString+Hash.m in Sources */,
 				A21F34DC1B0F302E00D73A91 /* UILabel+AutomaticWriting.m in Sources */,
 				A2C1ADCE1A58F35400E3BAFF /* UIImage+Orientation.m in Sources */,
@@ -3008,6 +3021,7 @@
 				A281FBE01AC8137A009040DA /* UIResponderDemoViewController.m in Sources */,
 				A281FBBC1AC812E5009040DA /* UIBezierPathDemoViewController.m in Sources */,
 				A202D9CE1B103BBD00EAB199 /* MKMapView+BetterMaps.m in Sources */,
+				9AB950F81BA2E22A00A6EB0C /* NSString+JSON.m in Sources */,
 				A284C1071AEB944B00D90ED5 /* UITableViewDemoViewController.m in Sources */,
 				A28BE32A1A3E9FDC005C4AC6 /* UIDevice+Hardware.m in Sources */,
 				A284C1501AEBD5BB00D90ED5 /* UINavigationController+StackManager.m in Sources */,
