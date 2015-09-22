@@ -5,8 +5,8 @@ iOS中的各种Objective-C Category, a collection of useful Objective-C Categori
 
 
 
-#更新播报
-*增加了修改系统navi back按钮的action
+#更新
+* 增加了修改系统navi back按钮的action
 
 
 
