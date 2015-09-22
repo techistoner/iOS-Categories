@@ -11,6 +11,7 @@
 		798256171B3A57340033A0C1 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256161B3A57340033A0C1 /* UIViewController+BackButtonHandler.m */; };
 		7982561A1B3A59060033A0C1 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256191B3A59060033A0C1 /* NSString+RegexCategory.m */; };
 		9A5B883F1BB0FE54009B09B7 /* SMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B883D1BB0FE54009B09B7 /* SMNavigationController.m */; };
+		9A5B88431BB13D45009B09B7 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B88421BB13D45009B09B7 /* UIViewController+Tracking.m */; };
 		9AB950F81BA2E22A00A6EB0C /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB950F71BA2E22A00A6EB0C /* NSString+JSON.m */; };
 		A202D9621B0F6C4400EAB199 /* NSDate+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D9611B0F6C4400EAB199 /* NSDate+Reporting.m */; };
 		A202D9651B0F6DF900EAB199 /* NSString+MIME.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D9641B0F6DF900EAB199 /* NSString+MIME.m */; };
@@ -363,6 +364,8 @@
 		9A5B883D1BB0FE54009B09B7 /* SMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNavigationController.m; sourceTree = "<group>"; };
 		9A5B883E1BB0FE54009B09B7 /* SMNavigationControllerShouldPopProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNavigationControllerShouldPopProtocol.h; sourceTree = "<group>"; };
 		9A5B88401BB0FF22009B09B7 /* SMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNavigationController.h; sourceTree = "<group>"; };
+		9A5B88411BB13D45009B09B7 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		9A5B88421BB13D45009B09B7 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		9AB950F61BA2CE7200A6EB0C /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
 		9AB950F71BA2E22A00A6EB0C /* NSString+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
 		A202D9601B0F6C4400EAB199 /* NSDate+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Reporting.h"; sourceTree = "<group>"; };
@@ -2314,6 +2317,8 @@
 				A2958CB91B357AEF00D7AA0F /* UIViewController+StoreKit.m */,
 				798256151B3A57340033A0C1 /* UIViewController+BackButtonHandler.h */,
 				798256161B3A57340033A0C1 /* UIViewController+BackButtonHandler.m */,
+				9A5B88411BB13D45009B09B7 /* UIViewController+Tracking.h */,
+				9A5B88421BB13D45009B09B7 /* UIViewController+Tracking.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -2893,6 +2898,7 @@
 				A24EC2F01B74DD5600CE538B /* NSString+XML.m in Sources */,
 				A28BE3671A3EAF2E005C4AC6 /* UIColor+Gradient.m in Sources */,
 				A202D9C51B103A8300EAB199 /* CLLocationManager+Blocks.m in Sources */,
+				9A5B88431BB13D45009B09B7 /* UIViewController+Tracking.m in Sources */,
 				A28BE2E81A3E9F48005C4AC6 /* NSData+Encrypt.m in Sources */,
 				A281FC081AC813DF009040DA /* UIWebViewDemoViewController.m in Sources */,
 				A28BE3861A3ECF49005C4AC6 /* NSObject+GCD.m in Sources */,
