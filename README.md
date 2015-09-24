@@ -10,6 +10,17 @@ iOS中的各种Objective-C Category, a collection of useful Objective-C Categori
 * 增加了swizzledMethod 黑魔法
 
 ***
+#收藏的xcode插件
+* AdjustFontSize
+* ATProperty
+* ESJsonFormat
+* HOStringSense
+* KSImageNamed
+* RTImageAssets
+* VVDocumenter-Xcode
+* XAlign
+* ZLGotoSanbox
+
 
 
 ## Foundation
