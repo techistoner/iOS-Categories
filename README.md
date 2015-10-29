@@ -8,7 +8,7 @@ iOS中的各种Objective-C Category, a collection of useful Objective-C Categori
 #更新
 * 增加了修改系统navi back按钮的action
 * 增加了swizzledMethod 黑魔法
-
+* 增加了NSString的JSON和Digest
 ***
 #收藏的xcode插件
 * AdjustFontSize
